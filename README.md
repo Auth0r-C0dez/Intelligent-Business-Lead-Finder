@@ -28,14 +28,7 @@ The final output is a CSV file of ranked leads, ready for downstream use (sales,
 ## 🧠 Pipeline Overview
 
 ```mermaid
-graph TD;
-    RawData[Raw Data] --> LinkedIn[LinkedIn Profiles];
-    RawData --> PubMed[PubMed Profiles];
-    LinkedIn --> Step5[Step 5: Identity Matching];
-    PubMed --> Step5;
-    Step5 --> Step6[Step 6: Enrichment Engine];
-    Step6 --> Step7[Step 7: Probability Scoring];
-    Step7 --> Final[Final Ranked Leads CSV];
+
 Plaintext
 
 Raw Data
