@@ -1,0 +1,37 @@
+2025-12-16 16:01:13,062 - INFO - Application started
+2025-12-16 16:31:10,188 - INFO - Starting PubMed search
+2025-12-16 16:31:12,298 - INFO - Found 100 PubMed articles
+2025-12-16 16:31:12,300 - INFO - Fetching paper details from PubMed
+2025-12-16 16:31:15,048 - INFO - Extracted 923 author profiles
+2025-12-16 16:44:06,487 - INFO - Loading LinkedIn profiles
+2025-12-16 16:44:06,509 - INFO - Filtering LinkedIn profiles by target titles
+2025-12-16 16:44:06,510 - INFO - Filtered down to 3 relevant LinkedIn profiles
+2025-12-16 16:54:14,957 - INFO - Loading data from data/raw/pubmed_profiles.csv
+2025-12-16 16:54:14,961 - INFO - Loading data from data/raw/linkedin_profiles.csv
+2025-12-16 16:54:14,962 - INFO - Starting profile merge
+2025-12-16 16:54:14,967 - INFO - Merged dataset contains 3 profiles
+2025-12-16 17:16:07,725 - INFO - Loading data from data/raw/pubmed_profiles.csv
+2025-12-16 17:16:07,729 - INFO - Loading data from data/raw/linkedin_profiles.csv
+2025-12-16 17:16:07,730 - INFO - Starting profile merge based on full name
+2025-12-16 17:19:24,065 - INFO - Loading data from data/raw/pubmed_profiles.csv
+2025-12-16 17:19:24,070 - INFO - Loading data from data/raw/linkedin_profiles.csv
+2025-12-16 17:19:24,071 - INFO - Starting profile merge based on full name
+2025-12-16 17:19:24,075 - INFO - Merged dataset contains 926 profiles
+2025-12-16 17:19:24,081 - INFO - Saved merged profiles to data/processed/merged_profiles.csv
+2025-12-27 22:57:55,229 - INFO - Loading data from data/raw/pubmed_profiles.csv
+2025-12-27 22:57:55,247 - INFO - Loading data from data/raw/linkedin_profiles.csv
+2025-12-27 22:57:55,264 - INFO - Starting profile merge based on full name
+2025-12-27 22:57:55,289 - INFO - Merged dataset contains 926 profiles
+2025-12-27 22:57:55,294 - INFO - Saved merged profiles to data/processed/merged_profiles.csv
+2025-12-27 23:00:49,816 - INFO - Loading merged profiles from data/processed/merged_profiles.csv
+2025-12-27 23:00:49,843 - INFO - Starting company enrichment
+2025-12-27 23:00:49,843 - INFO - Starting funding enrichment
+2025-12-27 23:00:49,844 - INFO - Starting location enrichment
+2025-12-27 23:00:49,851 - INFO - Starting contact enrichment
+2025-12-27 23:00:49,859 - INFO - Enriched profiles saved to data/processed/enriched_profiles.csv
+2025-12-27 23:02:06,688 - INFO - Loading enriched profiles from data/processed/enriched_profiles.csv
+2025-12-27 23:02:06,733 - INFO - Computing propensity scores
+2025-12-27 23:03:43,596 - INFO - Loading enriched profiles from data/processed/enriched_profiles.csv
+2025-12-27 23:03:43,604 - INFO - Computing propensity scores
+2025-12-27 23:03:43,617 - INFO - Ranking leads
+2025-12-27 23:03:43,629 - INFO - Ranked leads saved to data/processed/final_ranked_leads.csv
