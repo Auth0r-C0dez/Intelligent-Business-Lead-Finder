@@ -1,6 +1,6 @@
 # Lead Intelligence Agent
 
-**Repository:** [https://github.com/Auth0r-C0dez/Intelligent-Business-Lead-Finder](https://github.com/Auth0r-C0dez/Intelligent-Business-Lead-Finder)
+
 
 A modular data pipeline that matches identities across sources, enriches profiles, and scores leads probabilistically to produce a ranked list of high-intent prospects.
 
@@ -29,7 +29,7 @@ The final output is a CSV file of ranked leads, ready for downstream use (sales,
 
 ```mermaid
 
-Plaintext
+
 
 Raw Data
    │
@@ -147,8 +147,7 @@ Ranked lead list
 
 This is the final product output of the project.
 
-❗ Notes & Constraints
-Step 8 is not implemented and not required to use the system.
+
 
 Do not run individual step files manually.
 
@@ -166,15 +165,6 @@ CLI arguments
 Database or API inputs
 
 Real-time or batch execution
-
-Step 8 (deployment / automation layer)
-
-✅ Project Status
-✔ Steps 5–7 fully implemented
-
-✔ End-to-end runnable
-
-✔ New-user friendly
 
 ✔ Production-ready pipeline core
 
