@@ -6,7 +6,6 @@ A modular data pipeline that matches identities across sources, enriches profile
 
 This project is designed to be run end-to-end with a single command and is usable up to **Step 7** of the pipeline.
 
----
 
 ## 🚀 What This Project Does
 
