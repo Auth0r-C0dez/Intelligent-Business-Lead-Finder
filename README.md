@@ -32,7 +32,7 @@ graph TD;
     Step6 --> Step7[Step 7: Probability Scoring];
     Step7 --> Output[Final Ranked Leads CSV];
  ```  
-
+```text
 project-root/
 │
 ├── main.py                     
@@ -58,7 +58,7 @@ project-root/
 │   └── probability_engine.py   
 │
 └── logs/
----
+```
 Requirements
 Python 3.9+
 
