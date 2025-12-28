@@ -49,13 +49,13 @@ project-root/
 │       └── final_ranked_leads.csv
 │
 ├── identification/
-│   └── profile_merger.py       # Step 5 Logic
+│   └── profile_merger.py       
 │
 ├── enrichment/
-│   └── enrichment_engine.py    # Step 6 Logic
+│   └── enrichment_engine.py    
 │
 ├── scoring/
-│   └── probability_engine.py   # Step 7 Logic
+│   └── probability_engine.py   
 │
 └── logs/
 ---
