@@ -32,27 +32,11 @@ graph TD;
     Step6 --> Step7[Step 7: Probability Scoring];
     Step7 --> Output[Final Ranked Leads CSV];
  ```  
-Raw Data
-   │
-   ├── LinkedIn Profiles
-   ├── PubMed Profiles
-   │
-   ▼
-[ Step 5 ] Identity Matching
-   │
-   ▼
-[ Step 6 ] Enrichment Engine
-   │
-   ▼
-[ Step 7 ] Probability Scoring
-   │
-   ▼
-Final Ranked Leads (CSV)
 
 project-root/
 │
-├── main.py                     # Single entry point (Steps 5–7)
-├── requirements.txt            # Project dependencies
+├── main.py                     
+├── requirements.txt            
 │
 ├── data/
 │   ├── raw/
@@ -74,7 +58,7 @@ project-root/
 │   └── probability_engine.py   # Step 7 Logic
 │
 └── logs/
-
+---
 Requirements
 Python 3.9+
 
